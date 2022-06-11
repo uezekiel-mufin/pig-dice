@@ -9,6 +9,7 @@ import Dice3 from "../assets/dice-3.png";
 import Dice4 from "../assets/dice-4.png";
 import Dice5 from "../assets/dice-5.png";
 import Dice6 from "../assets/dice-6.png";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   const [score1, setScore1] = useState(0);
@@ -152,6 +153,12 @@ const Home = () => {
             <h5>{currentScore2}</h5>
           </div>
         </div>
+      </div>
+
+      <div>
+        <Link to='/howto'>
+          <button>How To Play</button>
+        </Link>
       </div>
     </div>
   );

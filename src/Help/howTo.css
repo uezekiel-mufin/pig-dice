@@ -1,0 +1,17 @@
+.howto {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  color: #ffffff;
+  background: black;
+  height: 100vh;
+  align-items: center;
+}
+
+.how {
+  width: 50%;
+}
+
+p {
+  font-size: 1.5rem;
+}
